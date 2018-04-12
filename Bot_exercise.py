@@ -32,7 +32,7 @@ def remove_multiple_tasks(tasks_list):
         for task_to_remove in remove_list:
             if (task_to_remove in tasks_list):
                 tasks_list.remove(task_to_remove)
-                print("The element "+task_to_remove+" was successfully removed")
+                print("The element "+task_to_remove+" was successfully removed") 
     else:
         print("We did not find any tasks to delete!")
 
